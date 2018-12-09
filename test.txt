@@ -1,0 +1,3 @@
+github.com:/MyGit.git
+github.com/Lxy518310/MyGit.git
+git remote add origin https://github.com/Lxy518310/MyGit.git
