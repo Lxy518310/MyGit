@@ -1,3 +1,17 @@
 github.com:/MyGit.git
 github.com/Lxy518310/MyGit.git
 git remote add origin https://github.com/Lxy518310/MyGit.git
+
+git init  ：将这个目录变成Git可以管理的仓库。
+git add : 添加文件
+git commit ：将文件提交到仓库， git commit -m "具体描述"   提交文件到仓库并加以说明
+
+git status：命令可以让我们时刻掌握仓库当前的状态。此命令显示文件是否有没有提交的修改。
+git diff : 查看difference，显示的格式正是Unix通用的diff格式。即查看与上次提交的文件的差异。
+
+git log：显示版本信息（即修改记录）；git log --pretty=oneline 设置显示参数 仅显示一行
+git reset --hard 版本号：将版本回退到指定版本；HEAD^ 回退到最开始
+git reflog：用来记录你每次的git命令；
+
+git远程仓库
+java.lang.NumberFormatException: For input string: "Hello World!"
